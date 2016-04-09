@@ -1,0 +1,19 @@
+#head, #box1, #box2{
+	text-align: center;
+	background-color: yellow;
+	border: solid 2px black;
+	margin: 0 auto;
+	padding: 5px;
+	width: 236px; 
+}
+
+ul{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+h4{
+	margin: 0 auto;
+	padding-top: 5px;
+}
