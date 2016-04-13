@@ -1,1 +1,3 @@
 In this repository, I created a "to do list" application using Jquery with some minor css stylings. The user can add items and remove items as they please.
+
+Note: if you close the app page in your browser, your list will be lost. If you leave your browser open with the page loaded, your items will be saved and you can use the app as you wish.
