@@ -23,3 +23,17 @@ p{
 	width: 400px;
 	text-align: center;
 }
+
+/*This is where the media queries start*/
+
+@media (max-width: 400px){
+	body{
+		margin: 0 auto;
+	}
+
+	p{
+		margin: 0 auto;
+	    width: 300px;
+	    text-align: center;
+	}
+}
