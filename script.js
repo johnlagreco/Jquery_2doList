@@ -5,10 +5,10 @@ var enteredText = $("input").val()
 $('#newItemForm').on("submit", function(e){
 	e.preventDefault();
 	
-	$("ul").append("<li>"+$("#itemDescription").val()+"</li>");
+	$("ol").append("<li>"+$("#itemDescription").val()+"</li>");
 	$("li").on('click',function(){
 		$(this).remove();
-	});
+		});
 	});
 
 

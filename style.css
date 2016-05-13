@@ -4,24 +4,36 @@
 	border: solid 2px black;
 	margin: 0 auto;
 	padding: 5px;
-	width: 236px; 
+	width: 250px; 
 }
 
-ul{
-	list-style-type: none;
+h1{
+	font-family: lucida grande, sans-serif;
+}
+
+ol{
+	/*list-style-type: none;*/
+	font-family: tahoma;
+	list-style-position: inside;
 	margin: 0 auto;
 	padding: 0px;
+}
+
+li{
+	cursor: pointer;
 }
 
 h4{
 	margin: 0 auto;
 	padding-top: 5px;
+	font-family: tahoma;
 }
 
 p{
 	margin: 0 auto;
 	width: 400px;
 	text-align: center;
+	font-family: tahoma;
 }
 
 /*This is where the media queries start*/
