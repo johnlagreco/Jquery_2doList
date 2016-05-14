@@ -7,6 +7,10 @@
 	width: 250px; 
 }
 
+#box1{
+	text-align: start;
+}
+
 h1{
 	font-family: lucida grande, sans-serif;
 }
@@ -15,12 +19,20 @@ ol{
 	/*list-style-type: none;*/
 	font-family: tahoma;
 	list-style-position: inside;
-	margin: 0 auto;
-	padding: 0px;
+	margin-left: 32%;
+	padding-left: 0;
 }
 
 li{
 	cursor: pointer;
+}
+
+#itemDescription{
+	font-size: small;
+}
+
+#add{
+	font-size: medium;
 }
 
 h4{
@@ -37,7 +49,7 @@ p{
 }
 
 /*This is where the media queries start*/
-
+/*Phone*/
 @media (max-width: 400px){
 	body{
 		margin: 0 auto;
