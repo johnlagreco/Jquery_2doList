@@ -1,20 +1,24 @@
 $(document).ready(function(){
 
-var enteredText = $("input").val()
+	var enteredText = $("input").val()
 
-$('#newItemForm').on("submit", function(e){
-	e.preventDefault();
-	
-	$("ol").append("<li>"+$("#itemDescription").val()+"</li>");
-	$("li").on('click',function(){
-		$(this).remove();
-		});
+	$('#newItemForm').on("submit", function(e){
+		e.preventDefault();
+		
+		$("ol").append("<li>"+$("#itemDescription").val()+"</li>");
+		$("li").on('click',function(){
+			$(this).remove();
+			});
 	});
 
-
 	$("li").on('click',function(){
 		$(this).remove();
 	});
 
+// this puts the cursor with the placeholder
+	window.onload = function() {
+    document.getElementById("itemDescription").focus();
+	};
 
 });
+
