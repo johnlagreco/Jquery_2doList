@@ -5,7 +5,10 @@ $(document).ready(function(){
 	$('#newItemForm').on("submit", function(e){
 		e.preventDefault();
 		$("ol").append("<li>"+$("#itemDescription").val()+"</li>");
+// this puts the cursor in the field
 		document.getElementById("itemDescription").focus();
+// this clears the field of the last entry
+		document.getElementById("itemDescription").value = "";
 
 		// This removes the item from the list
 		$("li").on('click',function(){
@@ -19,10 +22,9 @@ $(document).ready(function(){
 		document.getElementById("itemDescription").focus();
 	});
 
-// this puts the cursor with the placeholder
+// this puts the cursor with the placeholder when the page loads
 	window.onload = function() {
     	document.getElementById("itemDescription").focus();
 	};
-
 });
 
